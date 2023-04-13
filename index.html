@@ -1,224 +1,508 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Portfolio</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
 
-<html>
-	<head>
-		<title>My Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Animashaun Samuel Olawunmi<br />
-						<br>My Portfolio</h1>
-						<p>Financial Data Analyst Skillset: SQL, Statistical and Financial Modelling, Advanced Microsoft Excel for Data Analysis (Power Query, Pivot Tables, Complex Formulas), Microsoft Power BI and Tableau, Python Libraries for Data Analysis and visualisation (Numpy, Matplotlib, Seaborn, Pandas, scikit learn), ACCA UK Chartered Accountant (In View 12/13 papers completed) <br/> 
-						</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">PROJECTS</a>
-					</header>
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-							
-						</ul>
-						<ul class="icons">
-							<li><a href="https://github.com/Sam10667" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="https://www.linkedin.com/in/animashaun-o-samuel-4b365b36/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
-						</ul>
-					</nav>
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">Samuel's Portfolio</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-				<!-- Main -->
-					<div id="main">
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <!-- <a href="#service" class="nav-item nav-link">Service</a> -->
+                        <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                        <a href="#experience" class="nav-item nav-link">Experience</a>
+                        <!-- <a href="#price" class="nav-item nav-link">Price</a> -->
+                        <!-- <a href="#review" class="nav-item nav-link">Review</a> -->
+                        <!-- <a href="#team" class="nav-item nav-link">Team</a> -->
+                        <!--<a href="#blog" class="nav-item nav-link">Blog</a>-->
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<!--<span class="date">April 25, 2017</span> -->
-									<h2>An Analysis of data retrieved from the following Streaming Service Company (Amazon, Hulu, Netflix and Disney) using SQL to answer the data related questions provided below.</h2>
-									<p>The aim of this project was to retrieve, analyze and provide answers to the following questions using SQL Query and visualise the results in the workspace provided using Charts and Graphs.
+
+        <!-- Hero Start -->
+        <div class="hero" id="home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="hero-content">
+                            <div class="hero-text">
+                                <p>I'm a Financial Data Analyst</p>
+                                <h4>with Experience using</h4>
+                                <h2></h2>
+                                <div class="typed-text">Advanced Microsoft Excel, SQL for Data Analysis, Python for Data Analysis, Microsft Power BI, Tableau, Financial Modelling, Statistical Modelling</div>
+                            </div>
+                            <div class="hero-btn">
+                                <!--<a class="btn" href="#portfolio">Portfolio</a>-->
+                                <a class="btn" href="">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-none d-md-block">
+                        <div class="hero-image">
+                            <img src="img/hero.png" alt="Hero Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+        <!-- About Start -->
+        <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="img/about.jpg" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-header text-left">
+                                <p>Learn About Me</p>
+                                <h2>8 Years Work Experience in total</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    I am an experienced financial Data Analyst who has worked for several years in preparing Management and Financial accounts, analysing financial data to predict trends, providing solutions and contributing to making strategic decisions within my organization. 
+ 
+I recently completed my MSc Degree In Financial Technology at the University of Bradford (UK) where I have been working on some real-life projects and building my portfolio to provide answers to questions using Data analysis.
+                                </p>
+                            </div>
+                            <div class="skills">
+                                <div class="skill-name">
+                                    <p>Advanced Microsoft Excel</p><p>90%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>SQL for Data Analysis</p><p>70%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Tableau</p><p>75%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Power BI</p><p>85%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Python for Data Analysis</p><p>65%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Financial Modelling</p><p>80%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <!--<a class="btn" href="">Learn More</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+        
+        
+        
+                <!-- Portfolio Start -->
+                <div class="portfolio" id="portfolio">
+                    <div class="container">
+                        <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                            <p>My Portfolio</p>
+                            <h2>Summary of My Portfolio</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <ul id="portfolio-filter">
+                                    <li data-filter="*" class="filter-active">All</li>
+                                    <li data-filter=".filter-1">SQL</li>
+                                    <li data-filter=".filter-2">Tableau & Power BI</li>
+                                    <li data-filter=".filter-3">Financial Model</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row portfolio-container">
+                            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.0s">
+                                <div class="portfolio-wrap">
+                                    <div class="portfolio-img">
+                                        <a href="img/portfolio-1.PNG" data-lightbox="01.html"><img src="img/portfolio-1.PNG" alt="Image"></a>
+                                    </div>
+                                    <div class="portfolio-text">
+                                        <h3>Financial Dashboard<br></h3>
+                                        <a class="btn" href="img/portfolio-1.PNG" data-lightbox="01.html">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="portfolio-wrap">
+                                    <div class="portfolio-img">
+                                        <a href="img/portfolio-2.jpg" data-lightbox="01.html"><img src="img/portfolio-2.jpg" alt="Image"></a>
+                                    </div>
+                                    <div class="portfolio-text">
+                                        <h3>Data Analysis using SQL</h3>
+                                        <a class="btn" href="img/portfolio-2.jpg" data-lightbox="01.html">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="portfolio-wrap">
+                                    <div class="portfolio-img">
+                                        <a href="img/portfolio-3.PNG" data-lightbox="01.html"><img src="img/portfolio-3.PNG" alt="Image"></a>
+                                    </div>
+                                    <div class="portfolio-text">
+                                        <h3>Revenue Dashboard</h3>
+                                        <a class="btn" href="img/portfolio-3.PNG" data-lightbox="portfolio">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="portfolio-wrap">
+                                    <div class="portfolio-img">
+                                        <a href="img/portfolio-4.jpg" data-lightbox="01.html"><img src="img/portfolio-4.jpg" alt="Image"></a>
+                                    </div>
+                                    <div class="portfolio-text">
+                                        <h3>Data Analysis using SQL</h3>
+                                        <a class="btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--<div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
+                                <div class="portfolio-wrap">
+                                    <div class="portfolio-img">
+                                        <img src="img/portfolio-5.jpg" alt="Image">
+                                    </div>
+                                    <div class="portfolio-text">
+                                        <h3>Social Mobile Apps</h3>
+                                        <a class="btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">+</a>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
+                                <div class="portfolio-wrap">
+                                    <div class="portfolio-img">
+                                        <img src="img/portfolio-6.jpg" alt="Image">
+                                    </div>
+                                    <div class="portfolio-text">
+                                        <h3>Company Website</h3>
+                                        <a class="btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">+</a>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio End -->
+        
+        <!-- Blog Start -->
+        <div class="blog" id="blog">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>From Portfolio</p>
+                    <h2>Description of My Portfolio</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="blog-img">
+                                <a href="img/portfolio-1.PNG" data-lightbox="01.html"><img src="img/blog-1.PNG" alt="Blog"></a>
+                            </div>
+                            <div class="blog-text">
+                                <h2>Financial Dashboard using Tableau</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-user"></i>Admin</p>
+                                    <p><i class="far fa-list-alt"></i>Tableau</p>
+                                </div>
+                                <p>
+                                This Interactive Financial Performance Dashboard is designed to show the relevant profitability ratios and KPI for the Organisation.
+                                </p>
+                                <a class="btn" href="https://public.tableau.com/views/Book1-Copy_16768288325330/Dashboard12?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">View web-link <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="blog-img">
+                                <img src="img/blog-2.jpg" alt="Blog">
+                            </div>
+                            <div class="blog-text">
+                                <h2>Data Analysis using SQL</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-user"></i>Admin</p>
+                                    <p><i class="far fa-list-alt"></i>SQL</p>
+                                    <!--<p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                                    <p><i class="far fa-comments"></i>10</p>-->
+                                </div>
+                                <p>
+                                    The aim of this project was to retrieve, analyze and provide answers to the following questions using SQL Query and visualise the results in the workspace provided using Charts and Graphs.
 									Listed below are the questions answered: <br />
 										* Which is the most family-friendly streaming service? <br />
 										* Which has the highest-rated content? <br / >
 										* Have critics and audiences diverged over time?
-									</p>
-								</header>
-								<a href="https://app.datacamp.com/workspace/w/768f72be-a0f4-49c0-b8fb-0c91880ba68a" target="_blank" class="image main"><img src="images/pic03.jpg" alt="" /></a>
-								<a href="https://app.datacamp.com/workspace/w/768f72be-a0f4-49c0-b8fb-0c91880ba68a" target="_blank" class="image main"><img src="images/pic04.jpg" alt="" /></a>
-								<a href="https://app.datacamp.com/workspace/w/768f72be-a0f4-49c0-b8fb-0c91880ba68a" target="_blank" class="image main"><img src="images/pic05.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://app.datacamp.com/workspace/w/768f72be-a0f4-49c0-b8fb-0c91880ba68a" target="_blank" class="button large">View Workspace</a></li>
-								</ul>
-							</article>
+                                </p>
+                                <a class="btn" href="https://app.datacamp.com/workspace/w/768f72be-a0f4-49c0-b8fb-0c91880ba68a" target="_blank">View web-link<i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="blog-img">
+                                <a href="img/portfolio-3.PNG" data-lightbox="01.html"><img src="img/portfolio-3.PNG" alt="Blog"></a>
+                            </div>
+                            <div class="blog-text">
+                                <h2>Revenue Dashboard</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-user"></i>Admin</p>
+                                    <p><i class="far fa-list-alt"></i>Power BI</p>
+                                    <!--<p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                                    <p><i class="far fa-comments"></i>10</p>-->
+                                </div>
+                                <p>
+                                    This Interactive Revenue Dashboard was designed using Power BI to visualise the total Revenue recorded categorised by States
+                                    in the United States as well as Profit or Loss based on categories and subcategories of products
+                                    sold by the Company.
+                                </p>
+                                <a class="btn" href="https://drive.google.com/drive/folders/1q76MJlnbG9Q2t0l24nwoBJiLu-y8u-as?usp=sharing" target="_blank">View web-link<i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="blog-img">
+                                <a href="img/portfolio-4.jpg" data-lightbox="01.html"><img src="img/portfolio-4.jpg" alt="Blog"></a>
+                            </div>
+                            <div class="blog-text">
+                                <h2>Solving the Question relating to the <br />
+                                    Education for All Fundraising Company using Jupyter Notebook and Python Libraries</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-user"></i>Admin</p>
+                                    <p><i class="far fa-list-alt"></i>SQL & Jupyter Notebook</p>
+                                    <!--<p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                                    <p><i class="far fa-comments"></i>10</p>-->
+                                </div>
+                                <p>
+                                    This Project was created to answer questions relating to the Education for All Fundraising Company using Python Libraires in Jupyter Notebook to connect to the Postgres Database.
+                                </p>
+                                <a class="btn" href="https://drive.google.com/file/d/1PUIes0DMP1J7aWzXijsZQU8vNKbS10Gj/view?usp=share_link" target="_blank">View web-link<i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+        
+         <!-- Experience Start -->
+        <div class="experience" id="experience">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Resume</p>
+                    <h2>Working Experience</h2>
+                </header>
+                <div class="timeline">
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2018 - 2021</div>
+                            <h2>Financial Data Analayst</h2>
+                            <h4>Crystal Point Investment Limited</h4>
+                            <!--<p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>-->
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Jan. 2023 - Date</div>
+                            <h2>Finance Administrator</h2>
+                            <h4>Life Church Ministries (Bradford, UK)</h4>
+                            <!--<p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>-->
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2013 - 2018</div>
+                            <h2>Finance Assistant</h2>
+                            <h4>Crystal Point Investment Limited</h4>
+                            <!--<p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>-->
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Mar. 2022 - Dec. 2022</div>
+                            <h2>Finance Admin</h2>
+                            <h4>Off the Curriculum(London, UK)</h4>
+                            <!--<p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>-->
+                        </div>
+                    </div>
+                    <!--<div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div> -->
+                    <!--<div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+        <!-- Job Experience End -->
+        
+        
+        
+        <!-- Contact Start -->
+         <!-- <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-8">
+                            <div class="contact-form">
+                                <div id="success"></div>
+                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div>
+                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        <!-- Contact End -->
 
-						<!-- Posts -->
-							 <section class="posts">
-								<article>
-									<header>
-										
-										<h2>Financial Performance Dashboard <br />
-											using Tableau</h2>
-									</header>
-									<a href="https://public.tableau.com/views/Book1-Copy_16768288325330/Dashboard12?:language=en-US&:display_count=n&:origin=viz_share_link" class="image fit"><img src="images/pic07.PNG" alt="" /></a>
-									<p>This Interactive Financial Performance Dashboard is designed to show the relevant profitability ratios and KPI for the Organisation.</p>
-									<ul class="actions special">
-										<li><a href="https://public.tableau.com/views/Book1-Copy_16768288325330/Dashboard12?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2>Solving the Question relating to the <br />
-											Education for All Fundraising Company using Jupyter Notebook and Python Libraries</h2>
-									</header>
-									<a href="https://drive.google.com/file/d/1PUIes0DMP1J7aWzXijsZQU8vNKbS10Gj/view?usp=share_link" target="_blank" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>This Project was created to answer questions relating to the Education for All Fundraising Company using Python Libraires in Jupyter Notebook to connect to the Postgres Database.</p>
-									<ul class="actions special">
-										<li><a href="https://drive.google.com/file/d/1PUIes0DMP1J7aWzXijsZQU8vNKbS10Gj/view?usp=share_link" class="button">click picture above to view document</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2>Sales Dashboard <br />
-											using Power BI </h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic08.PNG" alt="" /></a>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="Data Model" /></a>
-									<p>This Interactive Sales Dashboard was designed with Power BI to visualise the total Revenue recorded categorised by States, <br />
-										in the United States of America as well as Profit or Loss based on categories and subcategories of products
-										sold by the Company.</p>
-									<ul class="actions special">
-										<li><a href="https://drive.google.com/drive/folders/1q76MJlnbG9Q2t0l24nwoBJiLu-y8u-as?usp=sharing" target="_blank" class="button">View Project file</a></li>
-									</ul>
-								</article>
-								
-								<!-- <article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#"  target="_blank" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" target="_blank" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" target="_blank" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" target="_blank" class="button">Full Story</a></li>
-									</ul>
-								</article> -->
-							</section>
 
-						
+        <!-- Footer Start -->
+        <div class="footer wow fadeIn" data-wow-delay="0.3s">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="footer-info">
+                        <h2>Samuel Animashaun</h2>
+                        <h3>United Kingdom</h3>
+                        <div class="footer-menu">
+                            <p>+447341021028</p>
+                            <p>samuel.animashaun@yahoo.co.uk</p>
+                        </div>
+                        <div class="footer-social">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/animashaun-o-samuel-4b365b36/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <p>&copy; <a href="#">Samuel</a>, All Right Reserved | Designed By <a href="https://htmlcodex.com">Sam</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        
+        <!-- Back to top button -->
+        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
 
-					</div>
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>Bradford (United Kingdom)</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">+447341021028</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">sam.o.animashaun@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://github.com/Sam10667" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="https://www.linkedin.com/in/animashaun-o-samuel-4b365b36/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; 2022</li></ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
 </html>
